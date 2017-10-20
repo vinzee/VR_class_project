@@ -1,0 +1,69 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   NVIDIA
+    VRAM:     8084 MB
+    Driver:   6.1.7600.16385
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Shevros\Documents\VRclass\Builds\Build1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Shevros\Documents\VRclass\Builds\Build1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Shevros\Documents\VRclass\Builds\Build1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Shevros\Documents\VRclass\Builds\Build1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Shevros\Documents\VRclass\Builds\Build1_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Shevros\Documents\VRclass\Builds\Build1_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Shevros\Documents\VRclass\Builds\Build1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Shevros\Documents\VRclass\Builds\Build1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Shevros\Documents\VRclass\Builds\Build1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Shevros\Documents\VRclass\Builds\Build1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Shevros\Documents\VRclass\Builds\Build1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Shevros\Documents\VRclass\Builds\Build1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\Shevros\Documents\VRclass\Builds\Build1_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Shevros\Documents\VRclass\Builds\Build1_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Shevros\Documents\VRclass\Builds\Build1_Data\Managed\UnityEngine.VR.dll (this message is harmless)
+Loading C:\Users\Shevros\Documents\VRclass\Builds\Build1_Data\Managed\UnityEngine.VR.dll into Unity Child Domain
+- Completed reload, in  0.016 seconds
+Platform assembly: C:\Users\Shevros\Documents\VRclass\Builds\Build1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Shevros\Documents\VRclass\Builds\Build1_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 2560x1440 165Hz; virtual: 2560x1440 at 0,0
+<RI> Initialized touch support.
+OpenVR initialized!
+ 
+(Filename:  Line: 381)
+
+The referenced script on this Behaviour (Game Object 'Sun') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'Picture Frame') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'DateText') is missing!
+ 
+(Filename:  Line: 1754)
+
+UnloadTime: 0.447227 ms
+IsolatedStorageException: Could not find a part of the path "C:\Users\Shevros\Documents\VRclass\Builds\assets\data\bucky.raw".
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in <filename unknown>:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share) [0x00000] in <filename unknown>:0 
+  at System.IO.File.OpenRead (System.String path) [0x00000] in <filename unknown>:0 
+  at System.IO.File.ReadAllBytes (System.String path) [0x00000] in <filename unknown>:0 
+  at Create3DTexFromFile.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Position file read successfully! Lines read: 14421
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 30b0 -> priority: 1 
+  Thread -> id: 33e8 -> priority: 1 
+OpenVR Shutdown
+ 
+(Filename:  Line: 815)
+
